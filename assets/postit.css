@@ -1,0 +1,213 @@
+#lavagna{
+    border: 2px solid black;
+    background-color: #666666;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 30rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+/* #wrap{
+    width: 20%; 
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+} */
+
+#task{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#sentence{
+    font-size: 1.3rem;
+}
+
+.postit1{
+    background: rgb(189,189,163);
+    background: linear-gradient(180deg, rgba(189,189,163,1) 0%, rgba(254,254,204,1) 100%);
+    box-shadow: 2px 2px rgb(56, 56, 56);
+    width: 20%; 
+    height: 10rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin: 16px;
+    transform: rotate(-10deg);
+    transition-property: height, width;
+    transition-duration: 1s, 1s;
+}
+
+.postit1:hover{
+    height: 12rem;
+    width: 16rem;
+    cursor: pointer;
+}
+
+.postit2{
+    background: rgb(203,253,205);
+    background: linear-gradient(180deg, rgba(203,253,205,1) 0%, rgba(158,181,161,1) 100%);
+    box-shadow: 2px 2px rgb(56, 56, 56);
+    width: 20%; 
+    height: 10rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin: 16px;
+    transform: rotate(13deg);
+    transition-property: height, width;
+    transition-duration: 1s, 1s;
+}
+
+.postit2:hover{
+    height: 12rem;
+    width: 16rem;
+    cursor: pointer;
+}
+
+.postit3{
+    background: rgb(200,200,246);
+    background: linear-gradient(180deg, rgba(200,200,246,1) 0%, rgba(139,140,155,1) 100%);
+    box-shadow: 2px 2px rgb(56, 56, 56);
+    width: 20%; 
+    height: 10rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin: 16px;
+    transform: rotate(-7deg);
+    transition-property: height, width;
+    transition-duration: 1s, 1s;
+}
+
+.postit3:hover{
+    height: 12rem;
+    width: 16rem;
+    cursor: pointer;
+}
+
+.postit4{
+    background: rgb(202,252,203);
+    background: linear-gradient(180deg, rgba(202,252,203,1) 0%, rgba(161,183,161,1) 100%); 
+    box-shadow: 2px 2px rgb(56, 56, 56);
+    width: 20%; 
+    height: 10rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin: 16px;
+    transform: rotate(14deg);
+    transition-property: height, width;
+    transition-duration: 1s, 1s;
+}
+
+.postit4:hover{
+    height: 12rem;
+    width: 16rem;
+    cursor: pointer;
+}
+
+.postit5{
+    background: rgb(249,250,200);
+    background: linear-gradient(180deg, rgba(249,250,200,1) 0%, rgba(189,189,163,1) 100%); 
+    box-shadow: 2px 2px rgb(56, 56, 56);
+    width: 20%; 
+    height: 10rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin: 16px;
+    transform: rotate(-9deg);
+    transition-property: height, width;
+    transition-duration: 1s, 1s;
+}
+
+.postit5:hover{
+    height: 12rem;
+    width: 16rem;
+    cursor: pointer;
+}
+
+.postit6{
+    background: rgb(195,196,239);
+    background: linear-gradient(180deg, rgba(195,196,239,1) 0%, rgba(139,140,155,1) 100%); 
+    box-shadow: 2px 2px rgb(56, 56, 56);
+    width: 20%; 
+    height: 10rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin: 16px;
+    transform: rotate(10deg);
+    transition-property: height, width;
+    transition-duration: 1s, 1s;
+}
+
+.postit6:hover{
+    height: 12rem;
+    width: 16rem;
+    cursor: pointer;
+}
+
+.postit7{
+    background: rgb(249,250,200);
+    background: linear-gradient(180deg, rgba(249,250,200,1) 0%, rgba(189,189,163,1) 100%);
+    box-shadow: 2px 2px rgb(56, 56, 56); 
+    width: 20%; 
+    height: 10rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin: 16px;
+    transform: rotate(-11deg);
+    transition-property: height, width;
+    transition-duration: 1s, 1s;
+}
+
+.postit7:hover{
+    height: 12rem;
+    width: 16rem;
+    cursor: pointer;
+}
+
+.postit8{
+    background: rgb(199,246,201);
+    background: linear-gradient(180deg, rgba(199,246,201,1) 0%, rgba(158,181,161,1) 100%);
+    box-shadow: 2px 2px rgb(56, 56, 56);
+    width: 20%; 
+    height: 10rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive; 
+    margin: 16px;
+    transform: rotate(5deg);
+    transition-property: height, width;
+    transition-duration: 1s, 1s;
+}
+
+.postit8:hover{
+    height: 12rem;
+    width: 16rem;
+    cursor: pointer;
+}
+
+  .postit {
+    width: 20%; 
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    background-color: yellow;
+    margin: 16px;
+  }
