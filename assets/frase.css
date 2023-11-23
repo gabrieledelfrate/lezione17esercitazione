@@ -24,3 +24,8 @@
     padding: 1rem;
 }
 
+.parole {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
