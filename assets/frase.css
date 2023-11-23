@@ -12,5 +12,15 @@
 #testoAlternato{
     border: 2px solid #646464;
     width: 600px;
+    height: 120px;
     margin: 0 auto;
+    margin-top: 5rem;
 }
+
+#testoAlternato > p {
+    font-family: Bree serif;
+    font-size: 1.4rem;
+    color: #2D2D2D;
+    padding: 1rem;
+}
+
